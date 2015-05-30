@@ -1,5 +1,5 @@
 <?php
-namespace Application\Db;
+namespace Workshop\Application\Db;
 
 use \PDO;
 

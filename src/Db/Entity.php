@@ -1,8 +1,8 @@
 <?php
 
-namespace Application\Db;
+namespace Workshop\Application\Db;
 
-use Application\Db\Connection;
+use Workshop\Application\Db\Connection;
 
 class Entity
 {
