@@ -105,7 +105,7 @@ class Entity
 				$update->bindValue(":" . $key, $value, !is_int($value)? \PDO::PARAM_STR : \PDO::PARAM_INT);
 			}
 
-			$update->execute();
+			return $update->execute();
 
 		} catch(PDOexception $e) {
 			return false;
